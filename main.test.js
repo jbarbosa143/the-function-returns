@@ -1,7 +1,42 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+greeting = ("hello");
+sum = 0;
+prod = 0;
+greeting1 ="";
 
+function greet(string){
+  greeting = "Hello" + " " + string;
+};
+
+function sumOfTwo(sum1 , sum2){
+  sum = sum1 + sum2;
+};
+
+function multiply(num1, num2, num3){
+  prod = num1 * num2 * num3;
+};
+
+function sayHi(p){
+  output = "Hello " + p + "!" ;
+return output;
+};
+
+function returnWhatISay(students){
+  return students;
+
+};
+
+function divide(num1, num2){
+  sum = num1 / num2;
+  return sum;
+};
+
+function remainder(num1, num2){
+  sum = num1 % num2;
+  return sum;
+};
 
 
 
